@@ -34,8 +34,10 @@
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
+    /* background: #005FAC; */
     margin-top: 20px;
 }
+
 /* middle-section */
 .middle {
     display: flex;
@@ -61,6 +63,7 @@
 /*  */
 .bottom {
     margin-top: 150px;
+    margin-bottom: 150px;
     display: flex;
 }
 
@@ -77,24 +80,80 @@
     top: 1792.3px;
     text-align: center;
 }
+
 /* icon-title */
-.plan-description{
+.plan-description {
     margin-top: 250px;
     display: flex;
-    
+
 }
-.plan-icon{
+
+.plan-icon {
     margin-left: 150px;
 
 }
-.icon-title{
+
+.icon-title {
     font-weight: 700;
-font-size: 30px;
-/* line-height: 35px; */
-/* text-align: center; */
-/* margin-right: 20px; */
+    font-size: 30px;
+    /* line-height: 35px; */
+    /* text-align: center; */
+    /* margin-right: 20px; */
 }
-.icon-description{
+
+.icon-description {
     font-weight: 500;
-font-size: 25px;
+    font-size: 25px;
+}
+
+/* Watch-section */
+.watch-title {
+    /* background:  linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+    display: flex;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.watch-gradient {
+    /* vertical-align: top;
+    /* align-items: initial; */
+    text-align: left;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    /* top: 2222.26px; */
+    /* margin-top: 2222.26px; */
+}
+.btn-call{
+    /* color: #FFFFFF; */
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 25px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    /* background: #FD6E0A; */
+    background:#FFFFFF
+    /* background: #005FAC; */
+    margin-top: 20px;
+}
+.hand-watch{
+    display: flex;
+    text-align:left;
+    
+}
+.hand-ad{
+    color: #FFFFFF;
+    display: flex;
+    /* font-size: 30px; */
+    font-weight: 700;
+font-size: 40px;
+}
+.hand-text{
+    /* text-align:left; */
+    position: absolute;
+    margin-left: 295px;
+    margin-top: 25px;
 }
