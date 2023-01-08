@@ -82,6 +82,12 @@
 }
 
 /* icon-title */
+.plan-area {
+    /* margin-left: 20px; */
+    /* margin-right: 80px; */
+    /* display: flex; */
+}
+
 .plan-description {
     margin-top: 250px;
     display: flex;
@@ -96,6 +102,9 @@
 .icon-title {
     font-weight: 700;
     font-size: 30px;
+
+    /* text-align: left; */
+    /* margin-right: 10px; */
     /* line-height: 35px; */
     /* text-align: center; */
     /* margin-right: 20px; */
@@ -125,7 +134,8 @@
     /* top: 2222.26px; */
     /* margin-top: 2222.26px; */
 }
-.btn-call{
+
+.btn-call {
     /* color: #FFFFFF; */
     color: #FD6E0A;
     font-weight: 700;
@@ -135,25 +145,134 @@
     height: 64px;
     border-radius: 5px;
     /* background: #FD6E0A; */
-    background:#FFFFFF
-    /* background: #005FAC; */
-    margin-top: 20px;
+    background: #FFFFFF
+        /* background: #005FAC; */
+        margin-top: 20px;
 }
-.hand-watch{
+
+.hand-watch {
     display: flex;
-    text-align:left;
-    
+    text-align: left;
+    margin-right:70px ;
+
 }
-.hand-ad{
+
+.hand-ad {
     color: #FFFFFF;
     display: flex;
     /* font-size: 30px; */
     font-weight: 700;
-font-size: 40px;
+    font-size: 40px;
 }
-.hand-text{
+
+.hand-text {
     /* text-align:left; */
     position: absolute;
     margin-left: 295px;
     margin-top: 25px;
+}
+
+
+/* Last title */
+.last-title {
+    /* display: flex;
+    position: absolute;
+    
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2652.26px; */
+
+    /* Dark 01 */
+
+    /* margin-top: 8000px; */
+
+}
+.last-background{
+    margin-top: 150px;
+    position: absolute;
+width: 1600px;
+height: 450px;
+left: 0px;
+top: 2652.26px;
+background: #151414;
+}
+.future-adjust{
+margin-top: 200px;
+}
+.future-up {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 2782.26px;
+    color: #f8f8f8;
+    /* margin-bottom: 55px; */
+
+}
+
+.future-sub {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 2851.26px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+.last-icon {
+    position: absolute;
+    width: 186px;
+    height: 146px;
+    left: 230px;
+    top: 2953.26px;
+    margin-top: 20px;
+}
+.icon-color{
+    color: #FFFFFF;
+}
+
+.subscribe {
+    position: absolute;
+    width: 325px;
+    height: 204px;
+    left: 1046px;
+    top: 2782.26px;
+
+}
+
+.subscribe-all {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+margin-top: 50px;
+    color: #FFFFFF;
+    top: 2782.26px;
+
+}
+
+/* .subs-mail{
+    position: absolute;
+width: 325px;
+height: 64px;
+left: 1046px;
+top: 2842.26px;
+} */
+.subs-mail{
+    margin-bottom: 30px;
+    /* font-size: 50px; */
+    /* border-radius: 10px; */
+    /* text-align: center; */
+    border: none;
+    font-weight: 700;
+    font-size: 35px;
+    /* margin-bottom: 50px; */
 }
